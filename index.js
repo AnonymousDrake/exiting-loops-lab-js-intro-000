@@ -27,7 +27,7 @@ var findBy= (array, findFn) =>{
        }
      }
      else{
-       return a;
+       return array[i];
      }
   }
 }
